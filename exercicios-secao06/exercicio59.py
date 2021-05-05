@@ -1,5 +1,4 @@
 num_habitantes = int(input('Informe o número de habitantes da cidade: '))
-valor_kwh = float(input('Informe o valor do kwh: '))
 
 menor_consumo = 0
 maior_consumo = 0
@@ -11,7 +10,7 @@ soma_consumo3 = 0
 for i in range(num_habitantes):
     print(f'\nHabitante {i + 1}:')
     consumo_mes = float(input('Informe o consumo do mês: '))
-    codigo_consumidor = int(input('Informe o código do consumidor (1 - Residencial, 2 - Comercial, 3- Industrial): '))
+    codigo_consumidor = int(input('Informe o código do consumidor (1 - Residencial, 2 - Comercial, 3 - Industrial): '))
 
     soma_consumo = soma_consumo + consumo_mes
 
